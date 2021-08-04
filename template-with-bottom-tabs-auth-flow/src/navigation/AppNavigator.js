@@ -21,13 +21,7 @@ import { AuthContext } from "../provider/AuthProvider";
 
 // Better put your these secret keys in .env file
 const firebaseConfig = {
-  apiKey: "AIzaSyCg3gv56sdm-8BlaO1o37XtYlyO7L-rF7w",
-  authDomain: "authtest-caa8d.firebaseapp.com",
-  projectId: "authtest-caa8d",
-  storageBucket: "authtest-caa8d.appspot.com",
-  messagingSenderId: "849204028651",
-  appId: "1:849204028651:web:cc77d74655be7d714b8aae",
-  measurementId: "G-8DGRKK9YDQ"
+
 };
 
 if (firebase.apps.length === 0) {
